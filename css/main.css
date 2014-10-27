@@ -467,6 +467,16 @@ footer .area2 .politicas {
   background-image: url('../img/abrecl/abrecl-6.jpg');
 }
 /*=====================*/
+/*Scrolling iframe google*/
+.overlay {
+        background:transparent; 
+        position:relative; 
+        width:640px;
+        height:480px; 
+        top:480px; 
+        margin-top:-480px;
+      }
+/*=======================*/
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
