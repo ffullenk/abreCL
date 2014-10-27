@@ -141,7 +141,7 @@
                                         <div class="col-md-12">
                                             <h3 id="section-1024">Proyectos Hackdash</h3>
                                                 <p><p id="project-hackdash">¡Todas las ideas cuentan! Sube tu idea en el <strong><a href="http://abrecl.hackdash.org/" target="_blank">Hackdash</a></strong> y preséntala al mundo. No importa si no tienes equipo, otros participantes pueden sumarse a trabajar contigo</p><ul></ul>
-                                                    <p id="hackdash">¡ Pulsa el botón de <button class="btn btn-primary" class="size-25"><a href="http://abrecl.hackdash.org/" target="_blank">Hackdash</a></button> y sube tu idea!</p>
+                                                    <p id="hackdash">¡ Pulsa el botón de <button class="btn btn-primary" class="size-25"><a href="http://abrecl.hackdash.org/"  onclick="trackOutboundLink('http://abrecl.hackdash.org/'); return false;" target="_blank">Hackdash</a></button> y sube tu idea!</p>
                                                 </p>
                                         </div>
                                         <div class="col-md-12">
@@ -168,7 +168,7 @@
                                             <h3 id="section-1024">¿Tienes alguna pregunta? <button class="btn btn-primary"><a id="contactanos" href="https://docs.google.com/forms/d/1cyAVdOKDsKFsUwWaL7S7VYXf7IiJL0OVNq9rB-tO9Qo/viewform" target="_blank">Contáctanos</a></button></h3>
                                         </div>
                                         <div class="col-md-12" >
-                                            <h3 id="section-1024"><button class="btn btn-primary"><a id="contactanos" href="#" target="_blank">Bases y Condiciones</a></button></h3>
+                                            <h3 id="section-1024"><button class="btn btn-primary"><a id="contactanos" href="#" target="_blank" onclick="trackOutboundLink('#'); return false;">Bases y Condiciones</a></button></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -289,5 +289,16 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/skrollr.min.js"></script>
         <script src="js/main.js"></script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-25669995-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
     </body>
 </html>

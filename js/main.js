@@ -105,6 +105,7 @@ var Frontend;
 	            	if($('.navbar-collapse.in').size()) {
 					    $('.navbar-header button').click();
 					}
+		            ga('send', 'event', 'internal', 'click', this.hash);
 	            	var offset = ($(this).hasClass('scrollToLinkSecundaria'))?-100:100;
 	                var targetOffset = ($(this).hasClass('toTop'))?0:$target.offset().top + offset;
 	                $('html,body').animate({ scrollTop: targetOffset }, 1000); //set scroll speed here
@@ -139,4 +140,12 @@ $(document).ready(function(){
 	Frontend.init();
 
 });
+
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'external', 'click', url, {'hitCallback':
+     function () {
+     document.location = url;
+     }
+   });
+}
 
