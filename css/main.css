@@ -203,7 +203,7 @@ body .toTopLink {
   .section .planes-container .planes .thumbnail {
     min-height: initial;
   }
-  iframe{
+  #iframe-footer{
     display: none;
   }
 }
@@ -211,7 +211,7 @@ body .toTopLink {
   .section .planes-container .planes .thumbnail {
     min-height: initial;
   }
-  iframe{
+  #iframe-footer{
     display: none;
   }
 }
@@ -219,7 +219,7 @@ body .toTopLink {
   .section .planes-container .planes .thumbnail {
     min-height: initial;
   }
-  iframe{
+  #iframe-footer{
     display: none;
   }
 }
