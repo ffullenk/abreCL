@@ -203,15 +203,24 @@ body .toTopLink {
   .section .planes-container .planes .thumbnail {
     min-height: initial;
   }
+  iframe{
+    display: none;
+  }
 }
 @media (max-width: 480px) {
   .section .planes-container .planes .thumbnail {
     min-height: initial;
   }
+  iframe{
+    display: none;
+  }
 }
 @media (max-width: 320px) {
   .section .planes-container .planes .thumbnail {
     min-height: initial;
+  }
+  iframe{
+    display: none;
   }
 }
 .section .planes-container .planes .thumbnail .caption {
